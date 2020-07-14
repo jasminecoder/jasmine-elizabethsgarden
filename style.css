@@ -1,0 +1,193 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    color: #333333;    
+  }
+
+  a {
+    color: inherit;
+  }
+ 
+  .name {
+    text-transform: uppercase;
+    letter-spacing: .1em;
+  }
+
+  .name a:hover {
+    text-decoration: none;
+  }
+
+  .name h1 span {
+    word-spacing: .4em;
+  }
+
+  .first-letter, .last-letter {
+    vertical-align: sub;
+  }
+
+  .name p {
+    font-size: .8em;
+    margin-top: -10px;
+  }
+
+  .home-main-image {
+    height: 80vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-image: url(img/floral/small.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+  } 
+
+  .weddings a,
+  .florist a,
+  .home-gallery a {
+    border-bottom: 1px solid rgba(51, 51, 51, .5);
+    color: rgba(51, 51, 51, .5);
+  }
+
+  .form-custom {
+    border-bottom: 1px solid #c4bfbf;
+  }
+
+  .form-custom label {
+    color: gray;
+    padding: 10px;
+  }
+
+  .weddings a:hover,
+  .florist a:hover,
+  .home-gallery a:hover {
+    text-decoration: none;
+    color: rgb(51,51,51);
+  }
+
+  .weddings-home-image img,
+  .florist-home-image img {
+    width: 90%;
+    border-right: 20px solid #f5f5f5;
+    border-top: 20px solid #f5f5f5;
+  }
+
+  .florist-home-image {
+    text-align: end;
+  }
+
+  .weddings h3 span {
+    font-size: 1.8em;
+    letter-spacing: -.15em;
+  }
+
+  .weddings h3 span.start-letter,
+  .florist h3 span.start-letter {
+    letter-spacing: 0em;
+  }
+
+  .florist h3 span,
+  .home-gallery h3 span {
+    font-size: 1.8em;
+    letter-spacing: -.05em;
+  }
+
+  .footer {
+    display: flex;
+    align-items: center;
+    margin: 10em 0 4em 0;
+  }
+
+  .footer .col-md-4 {
+    text-align: center;
+  }
+
+  .footer a:hover {
+    color: black;
+  }
+
+  .weddings-main {
+    background-color: #f5f5f5;
+  }
+
+  .weddings-main img {
+    width: 100%;
+    padding: 1em 1em 0;
+  }
+
+  .container-wide {
+    overflow: hidden;
+  }
+
+  .left-image {
+    height: 500px;
+  }
+
+  /* .workshop .workshop-text p{
+    color: black;
+    line-height: 1.2em;
+  } */
+
+  .register {
+    background-color: #fdfd96;
+    padding: 5px;
+  }
+
+  .form-control {
+    border: 0;
+    border-radius: 0;
+    border-bottom:1px solid #c4bfbf;
+  }
+
+  .form-input {
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    border-bottom:1px solid #c4bfbf;
+  }
+ 
+  .form-group input:focus,
+  .form-group textarea:focus {
+    box-shadow: none;
+    border-bottom:1px solid #414141;
+}
+
+.btn {
+  background-color: rgba(212, 163, 39, .5);
+  margin-top: 1em;
+  font-weight: 300;
+  margin-bottom: 5em;
+}
+
+.btn:hover {
+  background-color: rgba(212, 163, 39, .9);
+}
+
+#message-box {
+  height: 450px;
+}
+
+#text-box {
+  font-size: 1.2em;
+  color: inherit;
+}
+
+.remove {
+  display: none;
+}
+
+  @media (min-width: 767px) {
+    .home-main-image {
+      background-image: url(img/floral/bride-and-groom-bouquet.jpg);
+    }  
+  }
+
+  @media (min-width: 768px) {
+    .footer .col-md-4 {
+      border-right: 1px solid #333333;
+    }
+    .footer .col-md-4:last-child{
+      border-right: none
+    }
+  }
